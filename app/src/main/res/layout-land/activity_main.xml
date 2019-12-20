@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ismatkhanam.on_button_click.MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Your total is O"
+        android:textSize="45dp"
+        android:id="@+id/displaytext"
+        android:gravity="center"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:text="Adding one"
+        android:textSize="25dp"
+        android:id="@+id/add"
+        android:textStyle="italic"
+        android:textColor="#2536b9"
+        android:background="#45ca34"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtract one"
+        android:textSize="25dp"
+        android:id="@+id/sub"
+        android:background="#f5b579"
+        android:textColor="#f72828"
+        android:textStyle="italic"
+        android:layout_gravity="center"/>
+    </LinearLayout>
+    
+    <TextView
+        android:text="Hello!!!!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
